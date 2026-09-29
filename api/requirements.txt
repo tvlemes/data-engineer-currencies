@@ -1,0 +1,7 @@
+httpx
+pydantic
+python-dotenv
+fastapi
+uvicorn[standard]
+kafka-python
+psycopg2-binary

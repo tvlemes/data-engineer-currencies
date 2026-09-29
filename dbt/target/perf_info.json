@@ -1,0 +1,51 @@
+{
+    "path_count": 137,
+    "parsed_path_count": 137,
+    "static_analysis_path_count": 2,
+    "static_analysis_parsed_path_count": 2,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.08077351099996122,
+    "load_macros_elapsed": 0.5988100669999312,
+    "parse_project_elapsed": 0.31288569599996663,
+    "patch_sources_elapsed": 0.01962527199998476,
+    "process_manifest_elapsed": 0.02465784000014537,
+    "load_all_elapsed": 1.117833451000024,
+    "projects": [
+        {
+            "project_name": "data_engineer_currencies",
+            "elapsed": 0.3106389050001326,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.22392889299999297,
+                    "parsed_path_count": 2
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.08200724500011347,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 3
+        },
+        {
+            "project_name": "dbt_postgres",
+            "elapsed": 0.0009095580001030612,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0012454970001272159,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.0001759919998676196,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}

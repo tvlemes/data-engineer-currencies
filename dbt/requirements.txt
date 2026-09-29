@@ -1,0 +1,11 @@
+# Configuração
+python-dotenv
+
+# dbt com PostgreSQL
+dbt-core
+dbt-postgres
+psycopg2-binary
+
+# Testes e qualidade
+pytest
+ruff

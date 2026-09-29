@@ -1,0 +1,25 @@
+# ===============================================
+# Arquivo responsável por criar a conexão com
+# Postgres
+# ===============================================
+
+data_engineer: # Nome do profiles
+  target: dev
+
+  outputs:
+    dev:
+      type: postgres
+
+      # Dentro do Docker, usamos o nome
+      # do serviço PostgreSQL do docker-compose
+      host: postgres
+
+      port: 5432
+      user: "{{ env_var('POSTGRES_USER') }}"
+
+      password: "{{ env_var('POSTGRES_PASSWORD') }}"
+
+      dbname: "{{ env_var('POSTGRES_DB') }}"
+      schema: public
+
+      threads: 4

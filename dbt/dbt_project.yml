@@ -1,0 +1,28 @@
+# ===============================================
+# Configurações do projeto
+# ===============================================
+name: data_engineer_currencies 
+version: "1.0.0"
+config-version: 2
+
+profile: data_engineer # Nome do profiles declarado em profiles.yml
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+target-path: "target"
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+  
+models:
+  data-engineer-currences:
+
+    # Indica que a pasta staging é para criar uma view
+    staging: 
+      +materialized: view
+
+    # Indica que a pasta marts é para criar uma tabela
+    marts:
+      +materialized: table

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: data
+    description: "Dados do Data Warehouse"
+
+    schema: public
+
+    tables:
+      - name: financial_market # nome da tabela
+        description: "Agregações horárias"

@@ -1,0 +1,1 @@
+{"_invocation_id": "3641ab69-261b-4f16-b95d-f5c00754c2b9", "linked": {"0": {"name": "source.data_engineer_currencies.data.financial_market", "type": "source", "succ": [2]}, "1": {"name": "model.data_engineer_currencies.fct_data_engineer", "type": "model"}, "2": {"name": "model.data_engineer_currencies.stg_data_engineer", "type": "model", "succ": [1]}}}
